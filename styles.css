@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container_top-info {
+  width: 80%;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+}
+
+.container_top-info > h1 {
+  margin-bottom: 20px;
+}
+
+.container_top-info > p {
+  font-size: 30px;
+}
+
+.container_top-info > p > span {
+  color: red;
+  font-weight: 700;
+}
+
+.container_top-info > button {
+  padding: 15px;
+  width: 200px;
+  font-size: 20px;
+  background-color: darkviolet;
+  color: white;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+.container_game {
+  background-color: gainsboro;
+  padding: 20px;
+  box-shadow: 0 0 20px #888;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 700px;
+  text-align: center;
+}
+
+.container_game .player {
+  background-color: greenyellow;
+  box-shadow: 0 0 20px #888;
+}
+
+.container_game .computer {
+  background-color: red;
+  box-shadow: 0 0 20px #888;
+}
+.container_game > button {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  width: 300px;
+  border-radius: 4px;
+}
+
+.container_game > button:hover {
+  background-color: silver;
+}
